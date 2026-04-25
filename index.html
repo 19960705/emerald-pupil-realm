@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%23070f0b'/%3E%3Cpath d='M8 32c8-13 40-13 48 0-8 13-40 13-48 0Z' fill='%237affbf'/%3E%3Ccircle cx='32' cy='32' r='10' fill='%230d251a'/%3E%3Ccircle cx='36' cy='27' r='4' fill='%23fff4bd'/%3E%3C/svg%3E" />
+    <title>翠眸之境 | Emerald Pupil's Realm</title>
+  </head>
+  <body>
+    <div id="app">
+      <canvas id="world"></canvas>
+      <div class="vignette"></div>
+      <div class="grain"></div>
+
+      <section class="hud hud-top">
+        <div class="objective">
+          <span class="eyebrow">Emerald Pupil's Realm</span>
+          <strong>唤醒封印石 <b id="seal-count">0 / 5</b></strong>
+        </div>
+        <button id="mute-button" class="icon-button" aria-label="切换声音" title="切换声音">♪</button>
+      </section>
+
+      <section class="hud hud-bottom">
+        <div class="focus-chip">
+          <span>凝视</span>
+          <div class="meter"><i id="focus-fill"></i></div>
+        </div>
+        <div class="mood-chip" id="mood-chip">缓慢观察</div>
+      </section>
+
+      <div class="crosshair" aria-hidden="true">
+        <span></span>
+      </div>
+
+      <button id="focus-button" class="focus-button" aria-label="凝视">凝视</button>
+
+      <div id="intro" class="intro">
+        <div>
+          <span class="eyebrow">万物生长，皆因你的一瞥。</span>
+          <h1>翠眸之境</h1>
+          <p>拖动视角，移动到荒原深处。按住鼠标或空格凝视灰色物体，让绿色从你的目光里醒来。</p>
+          <button id="start-button">进入荒原</button>
+        </div>
+      </div>
+    </div>
+    <script type="module" src="/src/main.ts"></script>
+  </body>
+</html>

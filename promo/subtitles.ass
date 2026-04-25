@@ -1,0 +1,22 @@
+[Script Info]
+Title: Emerald Pupil Realm Promo
+ScriptType: v4.00+
+PlayResX: 1080
+PlayResY: 1920
+ScaledBorderAndShadow: yes
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Title, STHeiti, 86, &H00F0FFF5, &H000000FF, &H66091B12, &H66000000, -1, 0, 0, 0, 100, 100, 0, 0, 1, 2, 0, 5, 80, 80, 0, 1
+Style: Subtitle, STHeiti, 43, &H00E8F9EC, &H000000FF, &H77122018, &H66000000, 0, 0, 0, 0, 100, 100, 0, 0, 1, 1.4, 0, 2, 92, 92, 210, 1
+Style: Small, STHeiti, 29, &H00A8FFD1, &H000000FF, &H66122018, &H66000000, 0, 0, 0, 0, 100, 100, 0, 0, 1, 1.2, 0, 8, 70, 70, 104, 1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.30,0:00:03.00,Title,,0,0,0,,{\fad(450,450)}翠眸之境
+Dialogue: 0,0:00:01.20,0:00:04.60,Subtitle,,0,0,0,,{\fad(400,450)}万物生长，皆因你的一瞥。
+Dialogue: 0,0:00:04.80,0:00:08.20,Subtitle,,0,0,0,,{\fad(350,450)}在灰色荒原中，观察即创造。
+Dialogue: 0,0:00:08.40,0:00:12.20,Subtitle,,0,0,0,,{\fad(350,450)}凝视越久，生命越浓。
+Dialogue: 0,0:00:12.50,0:00:16.40,Subtitle,,0,0,0,,{\fad(350,450)}唤醒封印石，引导水脉回归。
+Dialogue: 0,0:00:16.70,0:00:20.60,Subtitle,,0,0,0,,{\fad(350,650)}一款关于专注、生态与温柔重塑的独立游戏。
+Dialogue: 0,0:00:18.20,0:00:21.00,Small,,0,0,0,,{\fad(450,500)}EMERALD PUPIL'S REALM · PLAYABLE PROTOTYPE

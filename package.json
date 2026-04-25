@@ -1,0 +1,27 @@
+{
+  "name": "emerald-pupil-realm",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite --host 127.0.0.1",
+    "build": "tsc && vite build",
+    "preview": "vite preview --host 127.0.0.1",
+    "promo:render": "remotion render promo/remotion/src/index.ts EmeraldLandscape promo/remotion/renders/emerald-pupil-landscape-remotion.mp4 --codec h264 --pixel-format yuv420p --audio-codec aac --public-dir=promo/remotion/public",
+    "promo:still": "remotion still promo/remotion/src/index.ts EmeraldLandscape promo/remotion/stills/emerald-landscape-still.png --frame=420 --public-dir=promo/remotion/public"
+  },
+  "dependencies": {
+    "@remotion/cli": "^4.0.451",
+    "react": "^19.2.5",
+    "react-dom": "^19.2.5",
+    "remotion": "^4.0.451",
+    "three": "^0.181.2"
+  },
+  "devDependencies": {
+    "@types/three": "^0.184.0",
+    "@vitejs/plugin-basic-ssl": "^2.1.0",
+    "playwright": "^1.59.1",
+    "typescript": "^5.9.3",
+    "vite": "^7.2.7"
+  }
+}
